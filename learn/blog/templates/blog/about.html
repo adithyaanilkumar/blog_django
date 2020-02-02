@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% if title %}
-        <title>{{ title }}</title>
-    {% else %}
-        <title>hello</title>
-    {% endif %}
-</head>
-<body>
+{% extends "blog/base.html"}
+{% block content %}
     <h1>About</h1>
-</body>
-</html>
+{% endblock content %}
